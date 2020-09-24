@@ -1,5 +1,5 @@
 def using_concat(array, element)
-  return array.include?(element)
+  return array.concat(element)
 
 end
 
@@ -23,7 +23,7 @@ def using_delete(array,string)
 
 end
 
-def using_size(array)
-  return array.size()
+def using_delete_at(array,int)
+  return array.using_delete_at(int)
 
 end
