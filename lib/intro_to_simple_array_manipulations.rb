@@ -13,9 +13,9 @@ def using_uniq(array)
 
 end
 
-def using_first(array)
-
-  return array.first()
+def using_flatten(array)
+  return array.flatten()
+  
 end
 
 def using_last(array)
