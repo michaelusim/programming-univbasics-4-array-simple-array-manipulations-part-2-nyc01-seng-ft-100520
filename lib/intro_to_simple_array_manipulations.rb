@@ -3,8 +3,8 @@ def using_concat(array, element)
 
 end
 
-def using_concat(array, element)
-  return array.include?(element)
+def using_insert(array, element)
+  return array.insert(element,4)
 
 end
 
