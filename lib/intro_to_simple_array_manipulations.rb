@@ -8,8 +8,8 @@ def using_insert(array, element)
 
 end
 
-def using_reverse(array)
-  return array.reverse()
+def using_uniq(array)
+  return array.uniq()
 
 end
 
