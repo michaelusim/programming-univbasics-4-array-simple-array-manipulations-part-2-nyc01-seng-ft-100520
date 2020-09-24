@@ -1,4 +1,4 @@
-def using_include(array, element)
+def using_concat(array, element)
   return array.include?(element)
 
 end
