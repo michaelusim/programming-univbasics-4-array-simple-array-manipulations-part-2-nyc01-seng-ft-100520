@@ -18,8 +18,8 @@ def using_flatten(array)
   
 end
 
-def using_last(array)
-  return array.last()
+def using_delete(array,string)
+  return array.delete(string)
 
 end
 
