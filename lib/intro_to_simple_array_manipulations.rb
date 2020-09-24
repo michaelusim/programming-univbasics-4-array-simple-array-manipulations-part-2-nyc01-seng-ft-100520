@@ -4,7 +4,9 @@ def using_concat(array, element)
 end
 
 def using_insert(array, element)
-  return array.insert(element,4)
+  help = array.insert(element,4)
+  return help
+  print help
 
 end
 
