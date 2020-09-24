@@ -3,8 +3,8 @@ def using_concat(array, element)
 
 end
 
-def using_sort(array)
-  return array.sort()
+def using_concat(array, element)
+  return array.include?(element)
 
 end
 
